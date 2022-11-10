@@ -18,3 +18,14 @@ elif [ $color = "blue" ]
 then
 	echo "Nice! Did you know the sky really isn't $color afterall!"
 fi	
+
+if [ $icecream = "vanilla" ]
+then
+	echo "Nice! But vanilla is kind of boring"
+elif [ $icecream = "chocalate" ]
+then
+	echo "Nice! Chocalate is full of flavor!"
+elif [ $icecream = "strawberry" ]
+then
+echo  "Nice! Now ADD SOME SPRINKLES AND WHIPPED CREAM!"
+FI
